@@ -1,0 +1,167 @@
+
+
+body{
+    z-index: 0;
+    margin: 0px;
+    padding: 0px;
+    font: 1em 'Open sans';
+}
+header{
+    color: white;
+    background-color: rgb(2, 2, 96);
+    margin-bottom: 0;
+    height:50px;
+}
+
+header nav{
+    margin-right: 10%;
+}
+header nav .link{
+    margin-left: 5%;
+    color: white;
+    font-size: 100%;
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+.first-quarter-of-page{
+    display: flex; 
+    align-items: center;
+    color: white;
+    background-color: rgb(2, 2, 96);
+    height: 400px;
+}
+.first-quarter-of-page .left-aligned-text{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 40%;
+    align-items: left;
+    margin-bottom: 10%;
+    margin-top:10%;
+}
+
+button{
+    background-color: #008CBA;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 100%;
+    padding: 10px 24px;
+    align-self:flex-start;
+    margin-left: 1%
+}
+
+.first-quarter-of-page .image-placeholder{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom:5%;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(128, 128, 128, 0.325);
+}
+
+.second-quarter-of-page{
+    display: flex;
+    flex-direction: column;
+    color: rgb(2, 2, 96);
+    align-items: center;
+    height: 400px;
+}
+.second-quarter-of-page .row-of-pics{
+    display: flex;
+    align-items: center;
+}
+
+.second-quarter-of-page .row-of-pics .pic-in-row{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+
+.second-quarter-of-page .row-of-pics .pic-in-row .image-placeholder{
+    background-color: transparent;
+    border-radius: 10%;
+    border: 5px solid aqua;
+    height: 150px;
+    width: 150px;
+}
+
+.third-quarter-of-page{
+    background-color: #c9f2ff4b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.third-quarter-of-page .quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 50%;
+}
+.third-quarter-of-page .quote .quote-text{
+    font-style: italic;
+    font-size: 150%;
+}
+.third-quarter-of-page .quote .quote-attribution{
+    text-align: right;
+    font-weight: bold;
+}
+
+
+
+.bottom-quarter-of-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+
+}
+
+.bottom-quarter-of-page .small-box{
+    display: flex;
+    align-items: center;
+    height:100px;
+    width:1000px;
+    background-color: #008CBA;
+    color: white;
+}
+
+.bottom-quarter-of-page .small-box .left-aligned-text{
+    display: flex;
+    flex-direction: column;
+    width:600 px;
+    margin-left:100px;
+    flex-grow: 1;
+}
+.bottom-quarter-of-page .small-box button{
+    background-color: #008CBA;
+    margin-right: 100px;
+    margin-top: 25px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 100%;
+    padding: 10px 24px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    vertical-align: middle;
+    color: white;
+    background-color: rgb(2, 2, 96);
+    font-size: 100%;
+    justify-content: center;
+}

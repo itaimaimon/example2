@@ -1,85 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
     <title>example webpage</title>
 </head>
-<body>
-    <header>
-        <div class="Logo">
+
+<body style="display: flex; flex-direction: column;">
+    <header style="display: flex; align-items: center;">
+        <h3 style="flex-grow: 1; margin-left: 10%;">
             Header Logo
-        </div>
-        <div class = "header-link">
-            header link one
-        </div>
-         <div class = "header-link">
-            header link two
-        </div>
-         <div class = "header-link">
-            header link three
-        </div>
+        </h3>
+        <nav style="display: flex;">
+            <div class="link">
+                header link one
+            </div>
+            <div class="link">
+                header link two
+            </div>
+            <div class="link">
+                header link three
+            </div>
+        </nav>
     </header>
     <div class="first-quarter-of-page">
-        <div class="right-aligned-text">
-            <div class="Large-text">
+        <div class="left-aligned-text">
+            <p style="font-size: 300%; font-weight: bold; margin: 1%; line-height: 90%; margin-left:1%; margin-bottom: 0%;">
                 This website is awesome
-            </div>
-            <div class="small-text">
+            </p>
+            <p style="margin-left: 1%; margin-top: 1%; margin-bottom:1%;">
                 This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
-            </div>
-            <button class="sign-up">
+            </p>
+            <button>
                 Sign up
             </button>
         </div>
         <div class="image-placeholder">
+        this is a placeholder for an image
         </div>
-        <p>this is a placeholder for an image</p>
     </div>
-        <div class="second-quarter-of-page">
-            <div class="Large-text">
-                
-            <p>
-                Some random information
-            </p>
-
+    <div class="second-quarter-of-page">
+        <p style="font-size: 200%; font-weight: bold;">
+            Some random information.
+        </p>
+        <div class="row-of-pics">
+            <div class="pic-in-row">
+                <div class="image-placeholder">
+                </div> 
+                <p style="width: 150px; text-align: center;">
+                    This is some subtext under an illustration or image.
+                </p>
             </div>
-            <div class="flexbox">
-                <div class="flexbox-child">
-                    <div class="image-placeholder">
-                    </div> 
-                    <p>
-                        This is some subtext under an illustration or image.
-                    </p>
+            <div class="pic-in-row">
+                <div class="image-placeholder">
+                </div> 
+                <p style="width: 150px; text-align: center;">
+                    This is some subtext under an illustration or image.
+                </p>
+            </div>
+            <div class="pic-in-row">
+                <div class="image-placeholder">
+                </div> 
+                <p style="width: 150px; text-align: center;">
+                    This is some subtext under an illustration or image.
+                </p>
+            </div>
+            <div class="pic-in-row">
+                <div class="image-placeholder">
                 </div>
-                <div class="flexbox-child">
-                    <div class="image-placeholder">
-                    </div> 
-                    <p>
-                        This is some subtext under an illustration or image.
-                    </p>
-                </div>
-                <div class="flexbox-child">
-                    <div class="image-placeholder">
-                    </div> 
-                    <p>
-                        This is some subtext under an illustration or image.
-                    </p>
-                </div>
-                <div class="flexbox-child">
-                    <div class="image-placeholder">
-                    </div>
-                    <p>
-                        This is some subtext under an illustration or image.
-                    </p>
-                </div>
+                <p style="width: 150px; text-align: center;">
+                    This is some subtext under an illustration or image.
+                </p>
             </div>
         </div>
     </div>
     <div class="third-quarter-of-page">
         <div class="quote">
             <div class="quote-text">
-                This is an inspiring quote or testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who kows? All I know is that it looks nice.
+                This is an inspiring quote or testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.
             </div>
             <div class="quote-attribution">
                 -Thor, God of Thunder
@@ -88,20 +87,22 @@
         
     </div>
     <div class="bottom-quarter-of-page">
-        <div class="flexbox">
-            <div class="left-aligned-large-text">
-                Call to action! It's time!
+        <div class="small-box">
+            <div class="left-aligned-text">
+                <div style="font-size: 120%; font-weight: bold;">
+                    Call to action! It's time!
+                </div>
+                <div>
+                    Sign up for our product by clicking that button right over there!
+                </div>
             </div>
-            <div class="left-aligned-small-text">
-                Sign up for our product by clicking that button right over there!
-            </div>
-            <button class="sign-up">
+            <button>
                 Sign up
             </button>
         </div>
     </div>
     <footer>
-        Copyright &copy; The Odin Project 2021
+            Copyright &copy; The Odin Project 2021
     </footer>
 </body>
 </html>
